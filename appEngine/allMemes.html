@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>All Memes Created</title>
+  </head>
+  <!-- <link rel="stylesheet.css" href="/css/master.css"> -->
+  <body>
+    {% for meme in mymemes %}
+      <h2>{{meme.meme_top_line}}</h2><br>
+      <img src="{{meme.meme_image}}" alt=""><br>
+      <h2>{{meme.meme_bottom_line}}</h2><br>
+    {% endfor %}
+  </body>
+</html>

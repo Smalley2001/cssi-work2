@@ -1,0 +1,16 @@
+p {
+  color: black;
+}
+ol {
+  color: black;
+}
+body{
+background-color: red;
+}
+div {
+  width: 350px
+  height: 350px
+  border: 2px solid black;
+  display: flex;
+
+}
